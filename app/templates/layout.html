@@ -1,0 +1,9 @@
+<!doctype html>
+<title>windvoice</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+  <h1>Welcome!</h1>
+  <a href="/">home</a>
+  <a href="/about">about</a>
+  {% block body %}{% endblock %}
+</div>
