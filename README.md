@@ -1,4 +1,5 @@
-This is a small personal blog system implemented with the Flask framework
+# Flask Template
+A project template of Flask web app.
 
 to run, hit ```./main.py runserver```
 to test, hit ```./main.py test```
