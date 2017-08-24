@@ -21,13 +21,5 @@ def test():
     import tests
     tests = unittest.TestLoader().discover('tests', pattern='*tests.py')
     unittest.TextTestRunner(verbosity=2).run(tests)
-    # loader = unittest.TestLoader()
-    # loader.testMethodPrefix = "test_prefix"# default value is "test"
-    #
-    # suite1 = loader.discover('Test1', pattern = "Test*.py")
-    # suite2 = loader.discover('Test2', pattern = "Test*.py")
-    # alltests = unittest.TestSuite((suite1, suite2))
-    # unittest.TextTestRunner(verbosity=2).run(alltests)
-
 
 manager.run()

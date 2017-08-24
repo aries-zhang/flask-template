@@ -1,5 +1,5 @@
 # Statement for enabling the development environment
-DEBUG = True
+DEBUG = False
 
 # Define the application directory
 import os
@@ -26,3 +26,6 @@ CSRF_SESSION_KEY = "secret"
 
 # Secret key for signing cookies
 SECRET_KEY = "secret"
+
+# Assets debug flag
+ASSETS_DEBUG = DEBUG

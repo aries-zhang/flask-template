@@ -1,2 +1,7 @@
 *.pyc
 *.db
+app/assets/lib
+app/assets/dist
+app/assets/.*-cache
+.idea
+*.DS_Store
